@@ -12,7 +12,7 @@ resolvers ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "org.springframework.data" % "spring-data-neo4j"         % "4.1.6.RELEASE"      % "compile",
+  "org.springframework.data" % "spring-data-neo4j"         % "4.0.0.RELEASE"      % "compile",
   "org.neo4j"                % "neo4j-cypher-dsl"          % "2.3.1"         % "compile",
   "javax.persistence"        % "persistence-api"           % "1.0"           % "compile",
   "javax.validation"         % "validation-api"            % "1.1.0.Final"      % "compile",
